@@ -1,0 +1,52 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+input,
+form,
+label {
+  display: block;
+  border: 0;
+}
+
+.form-add {
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 10px;
+  border: none;
+  background-color: #3F51B5;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.form-container {
+  margin: 2rem 0;
+}
+
+.form {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.form-field {
+  margin: 0 1.5rem 0 0;
+}
+
+
+.form-label {
+  margin: 0 0 0.5rem 0;
+}
+
+.form-name,
+.form-timezone {
+  width: 11rem;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+}
